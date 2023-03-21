@@ -1,0 +1,82 @@
+.btn:hover{
+    cursor: pointer;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui1{
+   
+    border-radius: 12px;
+    width: 80%;
+    color: #ffcd00;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding-left: 1px;
+}
+.li1{
+    background-color:  #382f263b;
+    border-radius: 12px;
+    list-style: none;
+    height: 80px;
+    margin: 3px;
+}
+.lb{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.tp{
+    float: right;
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+   font-weight: bolder;
+   bottom: 4px;
+
+     
+}
+.clo{
+    background-color: brown;
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+    margin-right: 5px;
+    height: 30px;
+    font-size: 18px;
+
+}
+.order{
+    background-color: brown;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 5px;  
+    font-size: 18px;
+
+}
+.btnhvr:hover{
+    cursor: pointer;
+}
+.cartbox{
+font-size: 30px;
+}
+@media (min-width: 410px) and (max-width:710px) {
+    .cartbox .tp .ui1  {
+        font-size: 10px;
+    
+    }}
+
+   @media (max-width: 409px) {
+    .cartbox .tp .ui1{
+      font-size: 10px;
+    
+    }
+  }

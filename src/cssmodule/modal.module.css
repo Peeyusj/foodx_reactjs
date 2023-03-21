@@ -1,0 +1,41 @@
+.backdrop{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.modal {
+    position: fixed;
+    top: 20vh;
+    left: 25%;
+    width: 60%;
+    background:url("../UI/assets/different-color-food-doodles-seamless-background-vector-11274790.jpg") ;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    /* animation: slide-down 300ms ease-out forwards; */
+  }
+  @media (min-width: 410px) and (max-width:820px) {
+    .modal {
+      width: 65%;
+     left:15%;
+     text-align: center;
+     font-size: 12px;
+    }
+  }
+
+   @media (max-width: 409px) {
+    .modal {
+      width: 65%;
+     left:14%;
+     text-align: center;
+     font-size: 12px;
+
+    }
+  }
+  

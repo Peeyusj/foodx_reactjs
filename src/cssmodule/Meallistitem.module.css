@@ -1,0 +1,110 @@
+.name{
+    padding-left: 5px;
+}
+.description{
+padding-left: 5px;
+}
+.price{
+    position: relative;
+    float: right;
+    right: 25px;
+}
+.price1{
+    position: relative;
+    float: right;
+    right: 14px;
+    /* left: 10px; */
+    bottom: 33px;
+}
+
+.li1{
+    background-color:  #382f263b;
+    border-radius: 12px;
+    list-style: none;
+    height: 80px;
+    margin: 3px;
+}
+.li2{
+    background-color:  #616161cf;
+    border-radius: 12px;
+    list-style: none;
+    height: 80px;
+    margin: 3px;
+}
+.sp1{
+    position: relative;
+    float: right;
+     right: 20px;
+}
+.sp2{
+    position: relative;
+    display: inline;
+}
+.sp1 input{
+    width: 25px;
+    text-align: center;
+}
+.firstrow{
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btnhvr:hover{
+    cursor: pointer;
+}
+.btninc{
+border: none;
+border-radius: 50%;
+background-color: rgba(102, 34, 34, 0.761);
+color: white;
+margin-left: 3px;
+
+}
+.btndec{
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(102, 34, 34, 0.761);
+    color: white;
+    margin-right: 4px;
+    width:20px;
+}
+.btncrs{
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(102, 34, 34, 0.761);
+    color: white;
+}
+@media (min-width: 410px) and (max-width:510px) {
+    .ui1  {
+        font-size: 10px;
+    
+    }
+    .btndec{
+         width:60%
+    }
+    .btninc{
+         width:60%
+          
+    }
+}
+
+   @media (max-width: 409px) {
+    .ui1 {
+      font-size: 10px;
+    
+    }
+    .btndec{
+        width:0.7em;
+        font-size: 0.6em;
+   }
+   .btninc{
+        width:0.7em;
+        font-size: 0.6em;
+         
+   }
+  }

@@ -1,0 +1,13 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui1{
+    background-color: gray;
+    border-radius: 12px;
+    width: 65%;
+    color: black;
+    display: block;
+    padding-left: 1px;
+}
