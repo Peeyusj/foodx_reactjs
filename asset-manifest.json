@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/foodx_reactjs/static/css/main.0d298e44.css",
+    "main.js": "/foodx_reactjs/static/js/main.a8439529.js",
+    "static/js/787.8e149c01.chunk.js": "/foodx_reactjs/static/js/787.8e149c01.chunk.js",
+    "static/media/food-g07016f903_1920.jpg": "/foodx_reactjs/static/media/food-g07016f903_1920.2c28837be39abb90bb8b.jpg",
+    "static/media/different-color-food-doodles-seamless-background-vector-11274790.jpg": "/foodx_reactjs/static/media/different-color-food-doodles-seamless-background-vector-11274790.cecc54adffefddd828ed.jpg",
+    "index.html": "/foodx_reactjs/index.html",
+    "main.0d298e44.css.map": "/foodx_reactjs/static/css/main.0d298e44.css.map",
+    "main.a8439529.js.map": "/foodx_reactjs/static/js/main.a8439529.js.map",
+    "787.8e149c01.chunk.js.map": "/foodx_reactjs/static/js/787.8e149c01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d298e44.css",
+    "static/js/main.a8439529.js"
+  ]
+}
